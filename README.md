@@ -2,7 +2,7 @@
 Convert publicly available 2020 and 2015 census block group level ADI to 5-digit zipcode level ADI through a population weighed mean of ADI ranks with census block group level population data from ACS5. The code is in the _zip_blk_grp_overlap folder_ and is organized as follows:
 
 ## ADI_2020_prepare.R
-This file reads in the raw 2020 ADI data (available[here](https://www.neighborhoodatlas.medicine.wisc.edu)), cleans it, pulls in ACS5 data for 2020 to take a population weighted mean of ADI percentile ranks, and then categorizes the weighted averages into quintiles and categories.
+This file reads in the raw 2020 ADI data (available [here](https://www.neighborhoodatlas.medicine.wisc.edu)), cleans it, pulls in ACS5 data for 2020 to take a population weighted mean of ADI percentile ranks, and then categorizes the weighted averages into quintiles and categories.
 Before running this fle, replace the parent directory in line 8 with the name of the folder which stores the code folder, and add your census key at line 24. Census keys are obtainable [here](http://api.census.gov/data/key_signup.html). 
 
 ## ADI_2015_prepare.R
